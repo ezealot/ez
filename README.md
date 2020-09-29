@@ -1,7 +1,7 @@
 # Esports Zealot
 
 <p>
-<img src="https://img.shields.io/badge/hacktoberfest-ff69b4">
+<img src="https://img.shields.io/badge/hacktoberfest-2020-ff69b4">
 </p>
 
 A Standard for Gaming Slangs. :video_game:
@@ -20,12 +20,10 @@ Slang | Actual Word | Definition
 
 ## Example:
 
-```
 Slang | Actual Word | Definition
 ------|-------------|-----------
 EZ | Easy | Self Explanatory
 
-```
 
 # Contributing
 
@@ -33,7 +31,7 @@ Please follow standard fork-and-pull workflow.
 - Fork the repo on GitHub
 - Clone the project locally
 - Commit changes to your own branch
-- Push the change back to your fork in the
+- Push the change back to the branch as in the issue
 
 # Community
 
