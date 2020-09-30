@@ -36,4 +36,4 @@ Please follow standard fork-and-pull workflow.
 # Community
 
 Keep up to date and get Esports Zealot support via:<br>
-    - [Discord](https://discord.gg/42pvfZ2) (to get help from our team and other users **Strongly Recommended**).
+- [Discord](https://discord.gg/42pvfZ2) (to get help from our team and other users **Strongly Recommended**).
