@@ -11,6 +11,7 @@ A Standard for Gaming Slangs. :video_game:
 - [Format](#format)
   - [Example](#example)
 - [Contributing](#contributing)
+- [Community](#community)
 
 # Format:
 
