@@ -7,12 +7,12 @@ assignees: ''
 
 ---
 
-**Task**
+**Task**<br>
 *More like a short description of what needs to be done*
 
 **Description**
 - Long description of what the issue is
 - In bullet form, please no paragraphs
 
-**Branch**
+**Branch**<br>
 PR in `[choose a branch]` branch
