@@ -1,5 +1,5 @@
 **Fixes issue** <br>
-*Refer to the related issue using `#issue_number`*
+*Refer to the related issue using #[issue_number]*
 
 **Description**<br>
 *A short description of the changes that have been introduced*
