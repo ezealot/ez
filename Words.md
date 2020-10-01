@@ -29,3 +29,23 @@ DOT | Damage Over Time | Self Explanatory
 MVP | Most Valuable Player | Self Explanatory
 DLC | DownLoadable Content | Self Explanatory
 OB | Open Beta | Beta launch
+GTG | Good to go | Self-explanatory
+DLC | Downloadable Content | Self-explanatory
+BRB | Be right back| Player needs to be away for a moment
+TLDR| Too long, didn't read| Self explanatory
+IGM| In-game name | Fake name used for online avatar
+FTW | For the win | Other player approves what one is saying
+GLHF | Good luck have fun | Self explanatory
+FGC | Fighting game community | Online community of fighting game players
+ARPG | Action role playing game | Self explanatory
+F2P | Free to play | Self explanatory
+HOG | Hidden objects game | Self explanatory
+TD | Tower Defense | Building towers to stop enemy
+TMG | Time management game | Self explanatory
+TBS | Turn-Based Strategy | Players take turns in choosing actions
+FOV | Field of view | Self explanatory
+HUD | Heads up display | On screen information that helps one play the game
+LvL | Level | Stage of game
+PvM | Player Versus Monster | Self explanatory
+DC| Disconnect | Self explanatory
+OMW | On my way | Self explanatory
