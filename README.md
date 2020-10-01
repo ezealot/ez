@@ -25,6 +25,7 @@ Slang | Actual Word | Definition
 Slang | Actual Word | Definition
 ------|-------------|-----------
 EZ | Easy | Self-explanatory
+PVC| Player versus Computer | Game between a real world player and a computer
 
 
 # Contributing
