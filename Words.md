@@ -29,3 +29,37 @@ DOT | Damage Over Time | Self Explanatory
 MVP | Most Valuable Player | Self Explanatory
 DLC | DownLoadable Content | Self Explanatory
 OB | Open Beta | Beta launch
+GGWP | Good Game Well Played | A greeting that comes out every time a competitive game is over
+Imba | Imbalance | To give praise for something you like (Too good)
+Auto | Guaranteed | You know something is bound to happen
+Pros/Pro | Good at | To express someone that really great with something
+Noob | Terrible | To express someone that not really good with something
+Hode | Shemale | The guy who disguised himself as a girl
+Ulti | Ultimate | The strongest skill you have
+By One | Sparring | Pitting one on one
+Savage | Barbarous | You did something really scary like kill all the enemies
+GB | Games Back | A common way to reflect the gap between a leading team and another team
+Toxic | Not polite | Speak or type an impolite sentence
+Smurf | Small | An account with a small level / rank
+Troll | Prank | You prank people with an unusual thing
+Lag | Lagging | Game image display is late due to disturbed internet
+DC | Disconnected | Internet connection is lost
+KS | Kill steal | Steal a kill from someone who can definitely kill him
+Safe zone | Shelter | A safe place to take cover
+Easter Eggs | Easter Eggs | Usually irrelevant features hidden within a game that you can either find or unlock
+Grinding  | Grinding | This is a term used to explain the amount of time needed to build char exp, power
+Boss | Boss | A very powerful foe in a computer game
+Glitches | Glitch | Bugs in the game
+Farming  | Gathering | Gathering items and supplies necessary for progressing in the game
+GLHF | Good luck Have Fun | self-explanatory
+MOB | Monster or Beast | Usually, a boss character or monster that needs to be defeated
+IGM | In-game name | A fake name used to name your online Avatar
+GTG | Good to go | Self-explanatory
+FTW | For the win | The other player approves of what you are saying
+Camper | A player who doesn't really do anything in a game
+BRB | Be right back | Player needs to pop away from a moment 
+Mats | Materials |  Usually referring to in-game resources for building stuff like weapons etc
+GJ | Good Job | An expression of something well done
+Lulz | LOL | Something really funny
+
+
