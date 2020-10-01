@@ -60,6 +60,6 @@ Camper | A player who doesn't really do anything in a game
 BRB | Be right back | Player needs to pop away from a moment 
 Mats | Materials |  Usually referring to in-game resources for building stuff like weapons etc
 GJ | Good Job | An expression of something well done
-Lulz | LOL | Something really funny
+Lulz | LOL | Something that really funny
 
 
