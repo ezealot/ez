@@ -1,6 +1,6 @@
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 80px;
+  height: 95px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +10,9 @@
   z-index: 999;
 }
 
+.container-search {
+  padding-left: 10px;
+}
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -18,9 +21,48 @@
   max-width: 1500px;
 }
 
+.bg-input {
+  background-color: rgba(255, 255, 255, 0.411);
+  color: rgba(255, 255, 255, 0.411);
+  backdrop-filter: blur(4px);
+  padding-left: 20px !important;
+  display: flex;
+  height: 48px;
+  width: 20%;
+  position: relative;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.1);
+}
+
+.input-search {
+  color: #fff;      
+  font-weight: 300;
+  font-size: 20px !important;
+  text-align: left;
+  border: none !important;
+  display: flex;
+  outline: none !important;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+  border-bottom:none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.fa-search {
+  color: #fff;
+  padding: 12px;
+}
+
 .navbar-logo {
   color: #2af598;
   justify-self: start;
+  padding-right: 20px;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -154,5 +196,42 @@
     background: #1a1919;
     color: #2af598;
     transition: 250ms;
+  }
+  .bg-input {
+    background-color: rgba(255, 255, 255, 0.411);
+    color: rgba(255, 255, 255, 0.411);
+    backdrop-filter: blur(4px);
+    padding-left: 10px !important;
+    display: flex;
+    height: 45px;
+    width: 50%;
+    position: relative;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.1);
+  }
+
+  .input-search {
+    color: #fff;      
+    font-weight: 300;
+    font-size: 20px !important;
+    text-align: left;
+    border: none !important;
+    display: flex;
+    outline: none !important;
+  }
+
+  input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .fa-search {
+    color: #fff;
+    padding: 10px;
   }
 }
