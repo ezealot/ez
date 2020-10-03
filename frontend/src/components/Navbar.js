@@ -31,6 +31,12 @@ function Navbar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Ez <i class="fas fa-gamepad"></i>
           </Link>
+
+          <div className="bg-input">
+            <input type="text" placeholder="Search" className="input-search"/>
+            <i class="fas fa-search"></i>
+          </div>
+
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
