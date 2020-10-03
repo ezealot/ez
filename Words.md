@@ -105,3 +105,6 @@ Post Processing | Post Processing | Graphics settings that apply a filter to fra
 Toxic | Toxic players | Players who abuse other players 
 Squatting | Squatting | Pressing crouch continuously over the dead enemy face to show supremacy
 Griefing | Griefing | A act of annoying a friendly team by doing actions like blocking a door
+Sus | Suspicious | When someone in your team is suspicious and might be the enemy/impostor
+GL | Good luck | Self Explanatory
+GLHF | Good luck have fun | Self Explanatory
