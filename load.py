@@ -4,7 +4,7 @@ import sqlite3
 DB = 'database.sql'
 
 with open('Words.md', 'r') as f:
-    x = f.readlines()
+    x = f.readlines()[2:]
 
 
 def data_loader():
