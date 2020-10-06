@@ -14,3 +14,4 @@
 **Checks**<br>
 *Put an `x` in the boxes that apply*
 - [ ] The PR to the branch is as mentioned in the issue
+- [ ] You have added you name in the `CONTRIBUTORS.md` in any **one** branch
