@@ -1,0 +1,4 @@
+Hey I have made a simple navbar using react to get you started with the website.
+
+
+I just added a "search button" like this in the layout, I'm studying to react, I hope it's great - @pedrogfx
