@@ -1,4 +1,4 @@
-![Esports Zelot Banner](/Designs/banner.png =1400x500)
+![Esports Zelot Banner](/Designs/banner.png)
 
 <p>
 <img src="https://img.shields.io/badge/hacktoberfest-2020-ff69b4">
