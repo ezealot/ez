@@ -1,4 +1,4 @@
-# Esports Zealot
+<p align="center"><img src="/Designs/Banner.png"></p>
 
 <p>
 <img src="https://img.shields.io/badge/hacktoberfest-2020-ff69b4">
