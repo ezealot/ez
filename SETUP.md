@@ -1,4 +1,14 @@
-## Project setup
+# Quick start Guide
+
+To run the app in developer mode, do the following steps:
+- Download and install NodeJs
+- Navigate to the project directory
+- Run the terminal
+- Execute npm install
+- Execute npm run serve
+
+
+# Project setup
 ```
 npm install
 ```
