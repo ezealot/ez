@@ -5,6 +5,3 @@ workflows:
   heroku_deploy:
     jobs:
       - heroku/deploy-via-git
-      filters:
-            branches:
-              only: circleci-project-setup
