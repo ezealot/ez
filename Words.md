@@ -105,3 +105,5 @@ Post Processing | Post Processing | Graphics settings that apply a filter to fra
 Toxic | Toxic players | Players who abuse other players 
 Squatting | Squatting | Pressing crouch continuously over the dead enemy face to show supremacy
 Griefing | Griefing | A act of annoying a friendly team by doing actions like blocking a door
+LMAO | Laughing My Arse Off | A phrase that comes into mind when people laugh in a hard manner
+LOL | Laughing Out Loud | An initial for voiced laughing
