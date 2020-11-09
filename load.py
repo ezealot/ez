@@ -1,7 +1,9 @@
 import sqlite3
 
+#Table - Zealot
+#Check description using PRAGMA table_info('Zealot');
 
-DB = 'database.sql'
+DB = 'database.db'
 
 with open('Words.md', 'r') as f:
     x = f.readlines()[2:]
@@ -14,9 +16,9 @@ def data_loader():
         db = conn.cursor()
         cmd = 'INSERT INTO ZEALOT (slang,acc_word,definition) values(?,?,?)'
         for i in x:
-            slang = str(i.split('|')[0])
-            acc_word = str(i.split('|')[1])
-            definition = str(i.split('|')[2])
+            slang = str(i.split(' |')[0])
+            acc_word = str(i.split(' | ')[1])
+            definition = str.strip(str(i.split('| ')[2]))
             db.execute(cmd, (slang, acc_word, definition))
             c += 1
 
