@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="100" viewBox="0 0 250 100">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="250" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="250" height="100" fill="none"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(25 13)" fill="none" stroke="#000" stroke-width="10">
+      <circle cx="37" cy="37" r="37" stroke="none"/>
+      <circle cx="37" cy="37" r="32" fill="none"/>
+    </g>
+    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(150.058 19.058)" style="isolation: isolate">
+      <line id="Line_1" data-name="Line 1" x1="62.035" y2="62.884" transform="translate(0.85)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="10"/>
+      <line id="Line_2" data-name="Line 2" x1="62.884" y1="62.884" fill="none" stroke="#000" stroke-linecap="round" stroke-width="10"/>
+    </g>
+  </g>
+</svg>
