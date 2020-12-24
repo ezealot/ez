@@ -1,16 +1,18 @@
 <p align="center"><img src="/Designs/Banner.png"></p>
 
 <p>
-<img src="https://img.shields.io/badge/hacktoberfest-2020-ff69b4">
+<img src="https://img.shields.io/badge/Gamers-Awe--some-fc2403">
 </p>
 
-A Standard for Gaming Slangs. :video_game:
+Setting a Standard for Gaming Slangs. :video_game:
 
 # Table of Contents
 
 - [Format](#format)
   - [Example](#example)
 - [Contributing](#contributing)
+  - [Workflow](#workflow)
+  - [Slangs](#slangs)
 - [Community](#community)
 - [FAQ](#faq)
 
@@ -29,16 +31,27 @@ EZ | Easy | Self-explanatory
 
 # Contributing
 
+## Workflow
+
 Please follow standard fork-and-pull workflow.
 - Fork the repo on GitHub
 - Clone the project locally
 - Commit changes to your own branch
 - Push the change back to the branch as in the issue
 
+## Slangs
+Before adding a slang please ensure it is not already present in the database, to help our maintainers clean redundant slangs.
+
+The format for inserting a slang in [here](Words.md) is:
+
+Slang_|_ActualWord\_|_Definition
+
+where `_` represents a space.
+
 # Community
 
 Keep up to date and get Esports Zealot support via:<br>
-- [Discord](https://discord.gg/42pvfZ2) (to get help from our team and other users **Strongly Recommended**).
+- [Discord](https://discord.gg/42pvfZ2) (to make new friends and engage **Strongly Recommended**).
 
 # FAQ
 
