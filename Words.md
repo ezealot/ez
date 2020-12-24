@@ -24,7 +24,8 @@ PvE | Player vs Enemy | The feature of games where players compete against NPC e
 TPS | Third Person Shooter | A game where the camera is behind the player
 RTS | Real Time Strategy | A game which revolves around the player controlling one or more Actors in a game to achieve certain objectives
 MOBA | Multiplayer Online Battle Arena | Strategy game where each player controls one character with different ablities and fight in one of many teams
-TCG/CCG | Trading/Collectible Card Game | Self Explanatory
+TCG | Trading | Self Explanatory
+CCG | Collectible Card Game | Self-Explanatory
 P2W | Pay To Win | A game where paying real world cash will benefit a player towards the progression of a game
 LoS | Line of Sight | reference towards target in sight
 DOT | Damage Over Time | An attack which damages a player continuously in a set amount of time
@@ -32,7 +33,7 @@ MVP | Most Valuable Player | The most player that has the most amount of certain
 DLC | DownLoadable Content | The additional content of a game meant to improve or extend gameplay 
 OB | Open Beta | A Beta launch where everyone is allowed to test the game under some conditions
 GGWP | Good Game Well Played | Self Explanatory
-GN| Good Night | Mocks the opponent player when they are killed or shut down
+GN | Good Night | Mocks the opponent player when they are killed or shut down
 STR | Strength | Attribute usually determining the damage performed by a player in a brute force attack
 DEX | Dexterity | Attribute usually determining the damage performed by a player using special skill weapons like sharp swords or bows
 VIT | Vitality | Attribute usually determining the amount of health and basic elemental resistance a player has
@@ -45,7 +46,7 @@ REV | Revive | The action of bringing a player back from DNBO state
 MMORPG | Massively Multiplayer Online Role Playing Game | An RPG game focused mostly on Online elements and possibly PvP
 IGN | In Game Name | Name of a Player inside a particular game.
 EVAC | Evacuate | Refers to the act of reporting back to a friendly for getting out of a hostile location
-K/D | Kills per Death | The ratio of the Kills to Deaths. 0 Deaths and 1 Death is penalized equally
+KD | Kills per Death | The ratio of the Kills to Deaths. 0 Deaths and 1 Death is penalized equally
 PRO | Professional | A player who plays professionally in official competitive tournaments  
 NOOB | Noobie | Someone who is just starting the game and doesn't know much about the game. Also used to mock players
 DOS | Denial Of Service | Attacking a server continuously so that the increase in traffic shuts down the servers
