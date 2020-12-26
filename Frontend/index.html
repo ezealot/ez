@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="card-group" style="padding-bottom: 20px;margin-right: 50px;margin-left: 50px;">
-            <div class="card border rounded" style="margin-right: 40px;background: url(&quot;assets/img/popular%20slangs.svg&quot;) center / cover;cursor: pointer;" onclick="window.location=&#39;slangs.html&#39;;">
+            <div class="card border rounded" style="margin-right: 40px;background: url(&quot;assets/img/popular%20slangs.svg&quot;) center / cover;cursor: pointer;" onclick="window.location=&#39;/slangs&#39;;">
                 <h1 class="text-left" style="margin-left: 35px;margin-right: 35px;color: #ffffff;margin-top: 66px;"><strong>Popular </strong><br><strong>Gaming Slangs !</strong></h1>
             </div>
             <div class="card border rounded" style="background: url(&quot;assets/img/sotm.svg&quot;) center / cover;">
@@ -55,22 +55,22 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th colspan="2" style="font-size: 40px;color: #ffffff;border-right-style: none;border: none;padding-left: 24px;">Slang of the month !</th>
+                                <th colspan="2" style="font-size: 40px;color: #ffffff;border-right-style: none;border: none;padding-left: 24px;">A Random Slang !</th>
                             </tr>
                         </thead>
                         <tbody style="color: #ffffff;border-right-style: none;">
                             <tr style="color: #ffffff;border-right-style: none;">
-                                <td rowspan="4" style="padding: 0px;font-size: 80px;color: #ffffff;border-right-style: solid;border-top-style: none;padding-left: 24px;">EZ</td>
+                                <td id="slang" rowspan="4" style="font-size: 80px;color: #ffffff;border-right-style: solid;border-top-style: none;padding-left: 24px;">EZ</td>
                                 <td style="padding: 0px;color: #ffffff;border-right-style: none;border: none;padding-left: 15px;font-size: 20px;">Actual Word:</td>
                             </tr>
                             <tr style="color: #ffffff;border-right-style: none;">
-                                <td style="padding: 0px;color: #ffffff;border-right-style: none;border: none;padding-left: 15px;font-size: 20px;"><em>Easy</em></td>
+                                <td id="acc_word" style="padding: 0px;color: #ffffff;border-right-style: none;border: none;padding-left: 15px;font-size: 20px; font-style: italic;"><em>Easy</em></td>
                             </tr>
                             <tr style="color: #ffffff;border-right-style: none;">
                                 <td style="padding: 0px;color: #ffffff;border-right-style: none;border: none;padding-left: 15px;font-size: 20px;">Definition:</td>
                             </tr>
                             <tr style="color: #ffffff;border-right-style: none;">
-                                <td style="padding: 0px;color: #ffffff;border-right-style: none;border: none;padding-left: 15px;font-size: 20px;"><em>Self-Explanatory</em></td>
+                                <td id="def" style="padding: 0px;color: #ffffff;border-right-style: none;border: none;padding-left: 15px;font-size: 20px; font-style: italic;"><em>Self-Explanatory</em></td>
                             </tr>
                         </tbody>
                     </table>
@@ -88,6 +88,11 @@
             let query = document.getElementById("search-field").value;
             query = query.toUpperCase();
             window.location = `${window.location.origin}/slangs#${query}`;
+        });
+        $.getJSON( `${window.location.origin}/api/getRandomSlangs`, function(data) {
+            document.getElementById("slang").innerHTML=data.slang;
+            document.getElementById("acc_word").innerHTML= data.acc_word;
+            document.getElementById("def").innerHTML=data.definition;
         });
     </script>
 </body>

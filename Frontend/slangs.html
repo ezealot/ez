@@ -64,6 +64,13 @@ $.getJSON( `${window.location.origin}/api/getAllSlangs`, function(data) {
                     <td style="color: rgb(255,255,255);font-size: 20px;text-align: center;" >${element.acc_word}</td>
                     <td style="color: rgb(255,255,255);font-size: 20px;text-align: center;" >${element.definition}</td></tr>` );
         if (window.location.hash) {
+            let sl = window.location.hash.slice(1,window.location.hash.length);
+            let ind = document.getElementById(sl);
+            document.getElementById("search-field").value = sl;
+            if(ind===null)
+                {document.getElementById("slangSearch").style.backgroundColor = "#cf0000";}
+            else
+                {document.getElementById("slangSearch").style.backgroundColor = "inherit";}
             window.location = `${window.location.origin}/slangs${window.location.hash}`;
         }
    });
@@ -72,6 +79,11 @@ $( "#slangSearch" ).submit(function( event ) {
   event.preventDefault();
   let query = document.getElementById("search-field").value;
   query = query.toUpperCase();
+    let ind = document.getElementById(query);
+    if(ind===null)
+        {document.getElementById("slangSearch").style.backgroundColor = "#cf0000";}
+    else
+        {document.getElementById("slangSearch").style.backgroundColor = "inherit";}
   window.location = `${window.location.origin}/slangs#${query}`;
 });
 $("#goToTop").click(function () {
