@@ -2,13 +2,14 @@ from flask import Flask, render_template, url_for, request, request
 import sqlite3
 import json
 from werkzeug.utils import redirect
+import random
 
 app = Flask(__name__, template_folder='Frontend', static_folder='Frontend/assets')
 
 @app.route('/')
 def index(): 
     return render_template('index.html')
-# server start kro mere pr blank dikha rha
+
 @app.route('/slangs')
 def slang():
     return render_template('slangs.html')
@@ -38,9 +39,16 @@ def search():
 def get_all_slangs():
     conn = sqlite3.connect('database.db')
     cursor = conn.cursor()
-    rows = cursor.execute("SELECT * FROM Zealot")
+    rows = cursor.execute("SELECT * FROM Zealot ORDER BY slang ASC")
     conn.commit()
     return json.dumps(test_make_json(cursor, rows))
+
+
+@app.route('/api/getRandomSlangs')
+def get_random_slangs():
+    data = json.loads(get_all_slangs())
+    index = random.randrange(0,len(data))
+    return json.dumps(data[index])
 
 
 @app.route('/about')

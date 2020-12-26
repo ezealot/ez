@@ -3,7 +3,7 @@ Slang | Actual Word | Definition
 EZ | Easy | Self Explanatory
 GG | Good Game | Self Explanatory
 AFK | Away From Keyboard | The player is not available or active in the game 
-OP | Overpowered | Self Explanatory
+OP | Overpowered | Most powerful player/character in a confrontation
 HP | Hit Points | The amount of damage the character can take before dying
 XP | Experience Points | The amount of experience the character has
 NPC | Non Player Character | The player like beings that populate a game world who can be interacted with either with dialogue or with combat
@@ -17,7 +17,6 @@ RPG | Role Playing Game | A game in which players assume the roles of characters
 WC | Wrong Chat | Self Explanatory
 FF | Forfeit | A term used for teams who are awarded an automatic loss as penalty
 Gz | Congratulations | Self Explanatory
-OT | Off Tank | Self Explanatory
 TD | Tower Defence | Strategy game which is played by defending against enemy waves
 PvP | Player vs Player | The feature of online games where players compete against each other
 PvE | Player vs Enemy | The feature of games where players compete against NPC enemies
@@ -32,7 +31,7 @@ DOT | Damage Over Time | An attack which damages a player continuously in a set 
 MVP | Most Valuable Player | The most player that has the most amount of certain statistic preferably K/D
 DLC | DownLoadable Content | The additional content of a game meant to improve or extend gameplay 
 OB | Open Beta | A Beta launch where everyone is allowed to test the game under some conditions
-GGWP | Good Game Well Played | Self Explanatory
+WP | Well Played | Self Explanatory
 GN | Good Night | Mocks the opponent player when they are killed or shut down
 STR | Strength | Attribute usually determining the damage performed by a player in a brute force attack
 DEX | Dexterity | Attribute usually determining the damage performed by a player using special skill weapons like sharp swords or bows
@@ -72,12 +71,11 @@ Exploit | Exploit | Using a bug in game to get unfair advantage
 Bug | Glitch | Weird occurences in the game due to bad coding
 Ghost | Ghost in the system | A bug that the developers overlook intentionally or unintentionally that results in strange occurences
 Easter Egg | Easter Egg | A hidden item or mechanism hidden in game which refer to other games or franchise in a subtle manner
-Ping | Delay | The delay between connections of the player with the server in ms
-Ping | Marker | Team side markers
+Ping | <ul><li>Delay</li><li>Marker</li></ul> | <ul><li>The delay between connections of the player with the server in ms</li><li>Team side markers
 Completionist | Completionist | A player who completes the whole game along with the mini-games 
 Mini Games | Mini Games | Small games that are inside the game usually involving puzzles
 Side Missions | Side Missions | Missions that are not part of the main game 
-Git Good | Get Good | Get better at playing the game by experience alone
+Git Good | Get Good | Grind and practice to get better at playing the game
 Whisper Chat | Private Message | Message a person without anyone else recieving it
 Guild Chat | Guild Message | Message will be sent to all members of the players guild
 All Chat | Area Message | Message will be sent to all players in the area
@@ -88,7 +86,7 @@ Tank | Shield | A type of character whose primary objective is to take a lot of 
 Fragger | Entry Fragger | A role for players whose primary objective is to kill the most enemies
 Support | Support | A role for players whose primary objective is to support the players with health boosts or other boosts
 Flex | Flex | A role for players who can change between roles of entry fragger and support
-Roamer | Scout | A defensive role for players who scout and kill enemies
+Roam | Scout | A defensive role for players who scout and kill enemies
 Anchor | Anchor | A defensive role for players who defend the objective site by staying near it
 Buff | Status Effect | A positive status effect
 Debuffs | Negative Status Effect | A negetive status effect 
@@ -101,8 +99,9 @@ Combo | Combination | Special attacks which do special damage which can be chain
 Juggling | Combo lock | Continuously attacking an enemy and keeping them in the air
 Passive Skills | Passive Abilities | Abilities that grants temporary or permanent buffs to player or allies
 Ambient Occlusion | Small Shadeows | Graphics settings that give shadows to small objects
-V Sync | Vertical Sync | Graphics settings that remove tears in the screen
+V-Sync | Vertical Sync | Graphics settings that remove tears in the screen
 Post Processing | Post Processing | Graphics settings that apply a filter to frames after it has been rendered
 Toxic | Toxic players | Players who abuse other players 
-Squatting | Squatting | Pressing crouch continuously over the dead enemy face to show supremacy
+Teabag | Teabagging | Pressing crouch continuously over the slain enemy's face to add a humiliating, and often humorous, factor to the character's death.
 Griefing | Griefing | A act of annoying a friendly team by doing actions like blocking a door
+TK | Team Kill | Killing allies intentionally or unintentionally
