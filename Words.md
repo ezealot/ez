@@ -23,10 +23,10 @@ PvE | Player vs Enemy | The feature of games where players compete against NPC e
 TPS | Third Person Shooter | A game where the camera is behind the player
 RTS | Real Time Strategy | A game which revolves around the player controlling one or more Actors in a game to achieve certain objectives
 MOBA | Multiplayer Online Battle Arena | Strategy game where each player controls one character with different ablities and fight in one of many teams
-TCG | Trading | Self Explanatory
+TCG | Trading | Trading card game
 CCG | Collectible Card Game | Self-Explanatory
 P2W | Pay To Win | A game where paying real world cash will benefit a player towards the progression of a game
-LoS | Line of Sight | reference towards target in sight
+LoS | Line Of Sight | How far something can see
 DOT | Damage Over Time | An attack which damages a player continuously in a set amount of time
 MVP | Most Valuable Player | The most player that has the most amount of certain statistic preferably K/D
 DLC | DownLoadable Content | The additional content of a game meant to improve or extend gameplay 
@@ -52,7 +52,7 @@ DOS | Denial Of Service | Attacking a server continuously so that the increase i
 DDOS | Distributed Denial Of Service | The act of DOSing a server using multiple devices to shut down a server or lobby
 Clutch | Clutch | When a person or number or people win against the odds
 Ace | Ace | One person get's all the kills for a match
-Prep | Preparation Phase | The time before the actual game starts where players are usually required to survey the map and location of enemies
+Prep | Preparation Phase | The time before the actual game starts where players strategize
 Strat | Strategy | A tactical plan to follow to achieve a certain objective. Usually unofficial
 Rush | Rush | The act of pushing an opponent as fast as possible so that the enemy doesn't expect it
 Push | Pressurize | The act of putting pressure on an opponent in hopes of making the opponent take drastic measures
@@ -60,12 +60,11 @@ Dev | Developers | The people or team who made a game
 Indie | Independent Games | The games made with a small team or one person where the Production Value is usually very low with no Producers
 AA | Anti Aliasing | The graphics option of a game where the borders between two objects are blurred to increase visuals
 UI | User Interface | The Menu or similar of a video game meant to guide players
-HUD | Heads Up Display | the method by which information is visually relayed to the player as part of a game's UI
+HUD | Heads Up Display | The method by which information is visually relayed to the player as part of a game's UI
 Campaign | Campaign | The main story of a video game
 Skirmish | Skirmish | Play in a single mission without many long term story elements
 Ganged | Overwhelmed | When a lot of enemy characters attack a player
 Default | Default Strategy | A strategy which is agreed by the community to be the most efficient
-Frag | Frag | A term to kill someone temporarily like in Counter Strike
 Throw | Throw | To lose a game intentionally
 Exploit | Exploit | Using a bug in game to get unfair advantage
 Bug | Glitch | Weird occurences in the game due to bad coding
@@ -83,7 +82,7 @@ World Chat | World Message | Message will be sent to all players in the server
 Aimbot | <ul><li>Aim Robot</li><li>Aim Robot Application</li></ul> | <ul><li>A player who has aim impossible for humans</li><li>A hack application that is used to have auto aim in game</li></ul>  |  
 Wave | Enemy Waved | A number of enemies attack the player or players with increasing difficulty in a set amount of time frames
 Tank | Shield | A type of character whose primary objective is to take a lot of damage for the team
-Fragger | Entry Fragger | A role for players whose primary objective is to kill the most enemies
+Frag | Fragmentation Grenade | Act of eliminating an opponent with a fragmentation grenade
 Support | Support | A role for players whose primary objective is to support the players with health boosts or other boosts
 Flex | Flex | A role for players who can change between roles of entry fragger and support
 Roam | Scout | A defensive role for players who scout and kill enemies
@@ -98,10 +97,11 @@ TDM | Team Death Match | A game mode where teams of 5 or more players compete ag
 Combo | Combination | Special attacks which do special damage which can be chained for more special damage
 Juggling | Combo lock | Continuously attacking an enemy and keeping them in the air
 Passive Skills | Passive Abilities | Abilities that grants temporary or permanent buffs to player or allies
-Ambient Occlusion | Small Shadeows | Graphics settings that give shadows to small objects
+Ambient Occlusion | Small Shadows | Graphics settings that give shadows to small objects
 V-Sync | Vertical Sync | Graphics settings that remove tears in the screen
 Post Processing | Post Processing | Graphics settings that apply a filter to frames after it has been rendered
 Toxic | Toxic players | Players who abuse other players 
 Teabag | Teabagging | Pressing crouch continuously over the slain enemy's face to add a humiliating, and often humorous, factor to the character's death.
 Griefing | Griefing | A act of annoying a friendly team by doing actions like blocking a door
 TK | Team Kill | Killing allies intentionally or unintentionally
+Sus | Suspect | Usually used to define someone or something that looks suspicious or untrustworthy
