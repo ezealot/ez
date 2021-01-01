@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>EZ</title>
-    <link rel="icon" type="image/svg+xml" sizes="78x78" href="assets/img/Logo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="78x78" href="https://cdn.jsdelivr.net/gh/ezealot/ez/Designs/cdn/Logo.svg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
 </head>
 
-<body style="background: url(&quot;https://cdn.jsdelivr.net/gh/malakar-soham/ez/Designs/cdn/BG.svg&quot;);margin-bottom: 30px;">
+<body style="background: url(&quot;https://cdn.jsdelivr.net/gh/ezealot/ez/Designs/cdn/BG.svg&quot;);margin-bottom: 30px;">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="background: rgba(255,255,255,0);">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1"><img class="mr-auto" src="https://cdn.jsdelivr.net/gh/malakar-soham/ez/Designs/cdn/Logo.svg" width="60" height="60" alt="Esports Zealot">
+            <div class="collapse navbar-collapse" id="navcol-1"><img class="mr-auto" src="https://cdn.jsdelivr.net/gh/ezealot/ez/Designs/cdn/Logo.svg" width="60" height="60" alt="Esports Zealot">
                 <ul class="nav navbar-nav border rounded ml-auto" style="background: rgba(255,255,255,0.5);">
                     <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/slangs">Slangs</a></li>
@@ -47,10 +47,10 @@
             </div>
         </div>
         <div class="card-group" style="padding-bottom: 20px;margin-right: 50px;margin-left: 50px;">
-            <div class="card border rounded" style="margin-right: 40px;background: url(&quot;https://cdn.jsdelivr.net/gh/malakar-soham/ez/Designs/cdn/pgs.svg&quot;) center / cover;cursor: pointer;" onclick="window.location=&#39;/slangs&#39;;">
+            <div class="card border rounded" style="margin-right: 40px;background: url(&quot;https://cdn.jsdelivr.net/gh/ezealot/ez/Designs/cdn/pgs.svg&quot;) center / cover;cursor: pointer;" onclick="window.location=&#39;/slangs&#39;;">
                 <h1 class="text-left" style="margin-left: 35px;margin-right: 35px;color: #ffffff;margin-top: 66px;"><strong>Popular </strong><br><strong>Gaming Slangs !</strong></h1>
             </div>
-            <div class="card border rounded" style="background: url(&quot;https://cdn.jsdelivr.net/gh/malakar-soham/ez/Designs/cdn/ars.svg&quot;) center / cover;">
+            <div class="card border rounded" style="background: url(&quot;https://cdn.jsdelivr.net/gh/ezealot/ez/Designs/cdn/ars.svg&quot;) center / cover;">
                 <div class="table-responsive" style="padding-bottom: 20px;">
                     <table class="table">
                         <thead>
@@ -89,7 +89,9 @@
             query = query.toUpperCase();
             window.location = `${window.location.origin}/slangs#${query}`;
         });
-        $.getJSON( `${window.location.origin}/api/getRandomSlangs`, function(data) {
+        $.getJSON( `https://raw.githubusercontent.com/ezealot/ezealot.github.io/main/data/slangs/slangs.json`, function(data) {
+            let randNum = Math.floor(Math.random() * data.length) + 0;
+            data = data[randNum];
             document.getElementById("slang").innerHTML=data.slang;
             document.getElementById("acc_word").innerHTML= data.acc_word;
             document.getElementById("def").innerHTML=data.definition;
